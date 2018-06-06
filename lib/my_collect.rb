@@ -5,5 +5,5 @@ def my_collect(array)
     capitalized_array << yield(array[i])
     i +=1
   end
-
+  capitalized_array
 end
